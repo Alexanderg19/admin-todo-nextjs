@@ -33,7 +33,6 @@ export async function GET(request: Request, { params }: Segments ) {
 }
 
 
-
 const putSchema = yup.object({
   complete: yup.boolean().optional(),
   description: yup.string().optional(),
